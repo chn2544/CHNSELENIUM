@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CHN TestNG Regression Test Suite" parallel="tests" thread-count="3" verbose="4">
+
+<!-- 	<test name="Amazon App Test">
+		<parameter name="Browser" value="chrome" />
+		<parameter name="Url" value="https://www.amazon.com" />
+
+		<classes>
+			<class name="myTests.AmazonTest" />
+		</classes>
+	</test>
+
+	<test name="Orange HRM Test">
+		<parameter name="Browser" value="firefox" />
+		<parameter name="Url" value="https://www.orangehrm.com/orangehrm-30-day-trial/" />
+			
+		<classes>
+			<class name="myTests.OrangeHRMTest" />
+		</classes>
+	</test>
+
+	<test name="Google Test">
+		<parameter name="Browser" value="chrome" />
+		<parameter name="Url" value="https://www.google.com" />
+			
+		<classes>
+			<class name="myTests.GoogleTest" />
+		</classes>
+	</test> -->
+	
+	<test name="Demo OpenCart LoginNegative">
+		<parameter name="Browser" value="chrome" />
+		<parameter name="Url" value="https://demo.opencart.com/index.php?route=account/login" />
+			
+		<classes>
+			<class name="myTests.LoginNegativeTest" />
+		</classes>
+	</test>
+
+</suite>

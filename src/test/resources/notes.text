@@ -1,0 +1,27 @@
+What is TestNG?
+TestNG is an automation testing framework in which NG stands for “Next Generation”. TestNG is inspired by JUnit which uses the annotations (@). 
+
+Using TestNG, you can generate a proper report, and you can easily come to know how many test cases are passed, failed, and skipped.
+Default Selenium tests do not generate a proper format for the test results. Using TestNG in Selenium, we can generate test results.
+
+Features of TestNG -
+-Generate the report in a proper format including a number of test cases runs, the number of test cases passed, the number of test cases failed, and the number of test cases skipped.
+-Multiple test cases can be grouped more easily by converting them into testng.xml file. In which you can make priorities which test case should be executed first.
+-The same test case can be executed multiple times without loops just by using keyword called ‘invocation count.’
+-Using testng, you can execute multiple test cases on multiple browsers, i.e., cross browser testing.
+-The TestNG framework can be easily integrated with tools like TestNG Maven, Jenkins, etc.
+-Annotations used in the testing are very easy to understand ex: @BeforeMethod, @AfterMethod, @BeforeTest, @AfterTest
+-WebDriver has no native mechanism for generating reports. TestNG can generate the report in a readable format like the one shown below.
+-TestNG simplifies the way the tests are coded. There is no more need for a static main method in our tests. The sequence of actions is regulated by easy-to-understand annotations that do not require methods to be static.
+-Uncaught exceptions are automatically handled by TestNG without terminating the test prematurely. These exceptions are reported as failed steps in the report.
+
+What is Annotation in TestNG?
+Annotations in TestNG are lines of code that can control how the method below them will be executed. They are always preceded by the @ symbol.
+
+Languagure            Testing Framework
+
+Java					TestNg/JUnit
+C#/.Net					NUnit
+Python					Pytest
+Javascript				Jasmine,Mocha
+Php						PhpUnit
