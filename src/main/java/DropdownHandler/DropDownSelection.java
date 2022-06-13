@@ -19,6 +19,7 @@ public class DropDownSelection {
 		driver.get("https://www.orangehrm.com/orangehrm-30-day-trial/");
 		
 		//drop down - html tag (select) - select class in selenium
+		//drop down push to git hub
 		
 		By country = By.id("Form_submitForm_Country");
 		By state = By.id("Form_submitForm_State");
